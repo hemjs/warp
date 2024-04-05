@@ -1,3 +1,4 @@
+import type { BaseHandler } from './base-handler';
 import type { LogLevel } from './levels';
 import type { LogRecord } from './log-record';
 
@@ -12,4 +13,8 @@ export interface LogRecordOptions {
 
 export interface BaseHandlerOptions {
   formatter?: string | ((logRecord: LogRecord) => string);
+}
+
+export interface LoggerOptions {
+  handler?: BaseHandler | BaseHandler[];
 }

@@ -1,7 +1,7 @@
 import {
   getLevelByName,
   getLevelName,
-  LevelName,
+  type LevelName,
   LogLevel,
   LogLevelNames,
 } from '../src';

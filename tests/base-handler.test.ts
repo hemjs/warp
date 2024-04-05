@@ -2,7 +2,7 @@ import {
   BaseHandler,
   getLevelByName,
   getLevelName,
-  LevelName,
+  type LevelName,
   LogLevel,
   LogLevelNames,
   LogRecord,
