@@ -1,4 +1,5 @@
 export * from './base-handler';
+export * from './console-handler';
 export * from './constants';
 export * from './levels';
 export * from './log-record';

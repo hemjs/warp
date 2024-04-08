@@ -15,6 +15,10 @@ export interface BaseHandlerOptions {
   formatter?: string | ((logRecord: LogRecord) => string);
 }
 
+export interface ConsoleHandlerOptions extends BaseHandlerOptions {
+  useColors?: boolean;
+}
+
 export interface LoggerOptions {
   handler?: BaseHandler | BaseHandler[];
 }
