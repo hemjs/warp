@@ -32,8 +32,9 @@ export class Logger implements ILogger {
     return this.loggerName;
   }
 
-  setLoggerName(loggerName: string) {
+  setLoggerName(loggerName: string): this {
     this.loggerName = loggerName;
+    return this;
   }
 
   trace(msg: any, ...args: unknown[]): void {
